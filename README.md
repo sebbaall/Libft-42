@@ -146,7 +146,7 @@ Through this project, I practiced:
 ### Compilation
 
 The project uses a Makefile to compile the source files and create libft.a.
-To compile the mandatory part:
+**To compile the mandatory part:**
 make 
 **To compile the bonus part:**
 make bonus 
