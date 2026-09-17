@@ -99,9 +99,7 @@ The library is divided into three parts.
 
 - `ft_putnbr_fd`
 
-### Bonus — Linked Lists
-
-The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade.
+### Part 3 — Linked Lists
 
 - `ft_lstnew`
 
