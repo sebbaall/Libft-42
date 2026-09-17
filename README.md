@@ -5,9 +5,13 @@ This activity has been created as part of the 42 curriculum by sabahmad
 ## Description
 
 Libft is a project from the 42 Common Core curriculum.
+
 The goal of this project is to create a personal C library containing reimplementations of standard C library functions, additional utility functions, and linked-list manipulation functions.
+
 The project focuses on understanding how these functions work, especially when dealing with strings, memory, pointers, dynamic allocation, and data structures.
+
 The library is compiled into a static library called libft.a, which can be reused in other C projects.
+
 
 ## Library Contents
 
@@ -169,8 +173,10 @@ make re
 
 **Include the library header in your C program:**
 #include "libft.h" 
+
 **Then compile your program with the library:**
 cc main.c -L. -lft -o program 
+
 **Run the program:**
 ./program 
 
@@ -185,8 +191,11 @@ cc main.c -L. -lft -o program
 ## AI Usage
 
 AI was used as a learning aid during the project.
+
 I provided man pages and relevant W3Schools pages and used AI to explain their content, clarify concepts, and provide additional information and examples when something was unclear.
+
 AI was also used to clarify some C concepts and compiler or debugging issues during the project.
+
 The implementations were written and tested as part of my own work.
 
 ## Author
