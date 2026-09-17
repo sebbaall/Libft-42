@@ -152,32 +152,41 @@ Through this project, I practiced:
 The project uses a Makefile to compile the source files and create libft.a.
 
 **To compile the mandatory part:**
+
 make 
 
 **To compile the bonus part:**
+
 make bonus
 
 **To remove object files:**
+
 make clean 
 
 **To remove object files and the library:**
+
 make fclean 
 
 **To recompile the project:**
+
 make re 
 
 **The source files are compiled with:**
+
 -Wall -Wextra -Werror 
 
 ### Using the Library
 
 **Include the library header in your C program:**
+
 #include "libft.h" 
 
 **Then compile your program with the library:**
+
 cc main.c -L. -lft -o program 
 
 **Run the program:**
+
 ./program 
 
 ## Resources
