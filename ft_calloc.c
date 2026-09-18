@@ -13,21 +13,15 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-void	*ft_collac(size_t n, size_t size)
+void	*ft_calloc(size_t n, size_t size)
 {
-	size_t			bytes;
-	size_t			i;
-	unsigned char	*ptr;
+	void	*ptr;
 
-	bytes = n * size;
-	ptr = malloc(bytes);
+	if (size != 0 && n > (size_t)-1 / size)
+		return (NULL);
+	ptr = malloc(n * size);
 	if (!ptr)
 		return (NULL);
-	i = 0;
-	while (i < bytes)
-	{
-		ptr[i] = 0;
-		i++;
-	}
+	ft_bzero(ptr, n * size);
 	return (ptr);
 }
