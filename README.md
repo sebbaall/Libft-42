@@ -187,7 +187,7 @@ cc main.c -L. -lft -o program
 
 - `Man Pages`
 
-  The Unix/Linux manual pages were used as the main reference for understanding the behavior, parameters, return values, and expected behavior of standard functions.
+The Unix/Linux manual pages were used as the main reference for understanding the behavior, parameters, return values, and expected behavior of standard functions.
 
 - `W3Schools`
 
@@ -197,7 +197,7 @@ AI was used as a learning aid during the project.
 
 I provided man pages and relevant W3Schools pages and used AI to explain their content, clarify concepts, and provide additional information and examples when something was unclear.
 
-AI was also used to clarify some C concepts and compiler or debugging issues during the project.
+AI was also used to clarify some C concepts.
 
 The implementations were written and tested as part of my own work.
 
