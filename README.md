@@ -153,10 +153,6 @@ The project uses a Makefile to compile the source files and create libft.a.
 
 make 
 
-**To compile the bonus part:**
-
-make bonus
-
 **To remove object files:**
 
 make clean 
@@ -191,7 +187,7 @@ cc main.c -L. -lft -o program
 
 - `Man Pages`
 
-- `The Unix/Linux manual pages were used as the main reference for understanding the behavior, parameters, return values, and expected behavior of standard functions.`
+  The Unix/Linux manual pages were used as the main reference for understanding the behavior, parameters, return values, and expected behavior of standard functions.
 
 - `W3Schools`
 
@@ -208,5 +204,7 @@ The implementations were written and tested as part of my own work.
 ## Author
 
 **Seba Al-Sayed**
+
 **42 Irbid — Common Core**
+
 **Project: Libft**
